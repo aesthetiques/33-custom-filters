@@ -1,29 +1,8 @@
-![cf](https://i.imgur.com/7v5ASc8.png) Lab 33 - Filters & Custom Filters
-======
-
-## To Submit this Assignment
-  * continue to work on your existing lab31 codebase
-  * push to your repository
-  * submit a pull request to this repository
-  * submit a link to your PR in canvas
-  * write a question and observation on canvas
-
-## Include
-  * `.eslintrc`
-  * `.babelrc`
-  * `.gitignore`
-  * `package.json`
-    * create an npm `build` script for running `webpack`
-    * create an npm `build-watch` script for running `webpack-dev-server --inline --hot`
-    * create an npm `test` script for running karma and all associated tests
-    * create an npm `test-watch` script for running karma on file system changes
-    * create an npm `lint` script for linting your JS with `eslint`
-  * **ignore the build directory**
-  * `webpack.config.js`
-    * this should include all of the production environment configurations used in lecture code
-  * `karma.config.js`
-
-## Description
-  * Create a custom `filter` that will allow for real time fuzzy searching of galleries
-  * Use the `uppercase`, `lowercase`, `number`, `date`, `limitTo`, and `orderBy` built-in angular filters in your application
-    *(note: this is simply for practice and can be used anywhere in your application)*
+# Angular Basic CRUD
+* Create a login page
+* Create a signup page
+* Create a gallery creation page
+* Create a method to edit galleries
+* Create a method to delete galleries
+* Create a controller for your home that will allow for galleries to be generated on the fly, and then displays them visibly.
+* create a readme.
