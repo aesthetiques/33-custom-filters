@@ -6,7 +6,9 @@
   "scripts": {
     "watch": "webpack-dev-server --inline --hot",
     "test": "karma start --single-run",
-    "test-watch": "karma start"
+    "test-watch": "karma start",
+    "heroku-postbuild": "webpack -p --progress",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
