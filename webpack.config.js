@@ -17,15 +17,15 @@ let plugins = [
   }),
 ];
 
-if(production){
-  plugins = plugins.concat([
-    new CleanPlugin(),
-    new webpack.optimize.UglifyJsPlugin({
-      mangle: true,
-      compress: {warnings: false}
-    }),
-  ])
-}
+// if(production){
+//   plugins = plugins.concat([
+//     new CleanPlugin(),
+//     new webpack.optimize.UglifyJsPlugin({
+//       mangle: true,
+//       compress: {warnings: false}
+//     }),
+//   ])
+// }
 
 module.exports = {
   entry: `${__dirname}/app/entry.js`,
