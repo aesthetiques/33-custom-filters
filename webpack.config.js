@@ -30,12 +30,12 @@ if(production) {
 
 module.exports = {
   entry: `${__dirname}/app/entry.js`,
-  devtool: production ? false : 'source-map',
   output: {
     filename: 'bundle.js',
     path: `${__dirname}/build`
   },
   plugins,
+  devtool: production ? false : 'source-map',
   module: {
     loaders: [
       {
