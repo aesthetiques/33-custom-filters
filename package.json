@@ -2,7 +2,7 @@
   "name": "28-angular-routes-controllers",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "entry.js",
   "scripts": {
     "watch": "webpack-dev-server --inline --hot",
     "test": "karma start --single-run",
