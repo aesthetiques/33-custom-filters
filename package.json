@@ -1,17 +1,17 @@
 {
-  "name": "28-angular-routes-controllers",
+  "name": "34-demoApp-front-end",
   "version": "1.0.0",
   "description": "",
   "main": "entry.js",
   "scripts": {
+    "start": "node entry.js",
     "watch": "webpack-dev-server --inline --hot",
     "test": "karma start --single-run",
     "test-watch": "karma start",
-    "heroku-postbuild": "webpack -p --progress",
-    "start": "node entry.js"
+    "heroku-postbuild": "webpack -p --progress"
   },
   "keywords": [],
-  "author": "",
+  "author": "aesthetiques",
   "devDependencies": {
     "angular-mocks": "^1.6.4",
     "chai": "^4.0.1",
